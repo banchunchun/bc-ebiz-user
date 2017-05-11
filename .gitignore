@@ -11,3 +11,5 @@ junit*.properties
 IgnoreLexer.java~
 .gradle
 /target/
+*.jar
+*.class
