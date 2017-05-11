@@ -16,6 +16,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <bc.ebiz.user.persist.version>1.0.0</bc.ebiz.user.persist.version>
+        <bc.ebiz.cloud.feign.version>1.0-SNAPSHOT</bc.ebiz.cloud.feign.version>
     </properties>
 
     <dependencies>
@@ -24,5 +25,24 @@
             <artifactId>bc-ebiz-persist</artifactId>
             <version>${bc.ebiz.user.persist.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.bc.cloud.feign</groupId>
+            <artifactId>bc-feign-extension-starter-vo</artifactId>
+            <version>${bc.ebiz.cloud.feign.version}</version>
+        </dependency>
     </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

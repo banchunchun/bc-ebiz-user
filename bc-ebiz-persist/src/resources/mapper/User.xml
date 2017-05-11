@@ -9,7 +9,7 @@
         <result column="name" property="name"/>
     </resultMap>
 
-    <select id="findById" resultMap="user" parameterType="java.lang.Integer">
+    <select id="find" resultMap="user" parameterType="Integer">
         SELECT * FROM demo_person
         <where>
             id = #{id}

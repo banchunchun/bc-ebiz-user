@@ -1,6 +1,7 @@
 package com.bc.ebiz.user.persist.mapper;
 
 import com.bc.ebiz.user.persist.entity.User;
+import com.mamahao.data.framework.mybatis.bean.IMapper;
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,9 +11,9 @@ import com.bc.ebiz.user.persist.entity.User;
  * Description:
  * To change this template use File | Settings | File Templates.
  */
-public interface UserMapper {
+public interface UserMapper extends IMapper<User> {
 
 
-    User findById(int id);
+    User find(int id);
 
 }

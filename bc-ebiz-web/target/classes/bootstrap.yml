@@ -3,5 +3,8 @@ spring:
     name: bc-ebiz-user
   cloud:
     config:
+      username: mamahao
+      password: mamahao123
       label: master
       profile: ${spring.profiles.active:dev}
+      uri: http://localhost:8888
