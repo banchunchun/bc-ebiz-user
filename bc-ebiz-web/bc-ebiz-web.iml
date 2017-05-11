@@ -82,6 +82,7 @@
     <orderEntry type="library" name="Maven: com.mamahao.data.framework:mamahao-data-framework-memcache:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode.xmemcached:xmemcached:2.1.0" level="project" />
     <orderEntry type="library" name="Maven: com.mamahao.data.framework:mamahao-data-framework-cache-memcache:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.bc.cloud.feign:bc-feign-extension-starter-vo:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:1.5.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:1.5.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.7.RELEASE" level="project" />
@@ -229,5 +230,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:4.3.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:jquery:2.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:d3js:3.4.11" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.23" level="project" />
   </component>
 </module>

@@ -113,5 +113,7 @@
     <orderEntry type="library" name="Maven: com.mamahao.data.framework:mamahao-data-framework-memcache:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode.xmemcached:xmemcached:2.1.0" level="project" />
     <orderEntry type="library" name="Maven: com.mamahao.data.framework:mamahao-data-framework-cache-memcache:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.bc.cloud.feign:bc-feign-extension-starter-vo:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.23" level="project" />
   </component>
 </module>

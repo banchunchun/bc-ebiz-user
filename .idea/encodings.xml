@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bc-ebiz-persist" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bc-ebiz-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bc-ebiz-utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bc-ebiz-vo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bc-ebiz-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bc-ebiz-web/src/main/java/com/bc/ebiz/user/web/controller/UserController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bc-ebiz-web/src/resources/application.yml" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
