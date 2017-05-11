@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="db_demo@172.28.1.6">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="db_demo">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="ad"/>
+    <schema id="4" parent="1" name="chat"/>
+    <schema id="5" parent="1" name="comment"/>
+    <schema id="6" parent="1" name="common"/>
+    <schema id="7" parent="1" name="community"/>
+    <schema id="8" parent="1" name="credit_system"/>
+    <schema id="9" parent="1" name="cr_debug"/>
+    <schema id="10" parent="1" name="data_view"/>
+    <schema id="11" parent="1" name="db_dss"/>
+    <schema id="12" parent="1" name="db_gd"/>
+    <schema id="13" parent="1" name="db_gd_dev"/>
+    <schema id="14" parent="1" name="db_hd"/>
+    <schema id="15" parent="1" name="db_user"/>
+    <schema id="16" parent="1" name="disconf"/>
+    <schema id="17" parent="1" name="event"/>
+    <schema id="18" parent="1" name="expert"/>
+    <schema id="19" parent="1" name="gbsearch"/>
+    <schema id="20" parent="1" name="goodbaby"/>
+    <schema id="21" parent="1" name="imode"/>
+    <schema id="22" parent="1" name="information_schema"/>
+    <schema id="23" parent="1" name="jeecms"/>
+    <schema id="24" parent="1" name="kingtest"/>
+    <schema id="25" parent="1" name="lepus"/>
+    <schema id="26" parent="1" name="mamahao-cms"/>
+    <schema id="27" parent="1" name="mamahao-hr"/>
+    <schema id="28" parent="1" name="mamahao-test"/>
+    <schema id="29" parent="1" name="manage"/>
+    <schema id="30" parent="1" name="myawr"/>
+    <schema id="31" parent="1" name="mysql"/>
+    <schema id="32" parent="1" name="performance_schema"/>
+    <schema id="33" parent="1" name="phpcms"/>
+    <schema id="34" parent="1" name="quartz"/>
+    <schema id="35" parent="1" name="seo"/>
+    <schema id="36" parent="1" name="shai"/>
+    <schema id="37" parent="1" name="sonar"/>
+    <schema id="38" parent="1" name="sso"/>
+    <schema id="39" parent="1" name="subject"/>
+    <table id="40" parent="2" name="demo_person">
+      <Comment>示例</Comment>
+    </table>
+    <column id="41" parent="40" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="42" parent="40" name="name">
+      <Position>2</Position>
+      <DataType>varchar(64)|0</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="43" parent="40" name="age">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="44" parent="40" name="gender">
+      <Position>4</Position>
+      <DataType>tinyint(4)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <key id="45" parent="40" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: bc-ebiz-user
+  cloud:
+    config:
+      label: master
+      profile: ${spring.profiles.active:dev}
