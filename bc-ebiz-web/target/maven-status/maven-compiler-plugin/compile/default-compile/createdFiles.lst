@@ -1,0 +1,8 @@
+com\bc\ebiz\user\web\configuration\WebMvcConfiguration.class
+com\bc\ebiz\user\web\UserApplicationRunner$1.class
+com\bc\ebiz\user\web\configuration\event\ApplicationListenerEnvironmentPrepared.class
+com\bc\ebiz\user\web\configuration\event\ApplicationListenerPrepared.class
+com\bc\ebiz\user\web\configuration\event\ApplicationListenerFailed.class
+com\bc\ebiz\user\web\controller\UserController.class
+com\bc\ebiz\user\web\configuration\GlobalExceptionHandler.class
+com\bc\ebiz\user\web\UserApplicationRunner.class
