@@ -8,6 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>bc-ebiz-persist</artifactId>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>bc-ebiz-persist</name>
@@ -42,25 +43,29 @@
             <!--<artifactId>druid</artifactId>-->
         <!--</dependency>-->
 
+        <!--<dependency>-->
+            <!--<groupId>com.mamahao.data.framework</groupId>-->
+            <!--<artifactId>mamahao-data-framework-mybatis</artifactId>-->
+        <!--</dependency>-->
         <dependency>
-            <groupId>com.mamahao.data.framework</groupId>
-            <artifactId>mamahao-data-framework-mybatis</artifactId>
+            <groupId>org.spring.data.framework</groupId>
+            <artifactId>bc-spring-data-framework-mybatis</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.mamahao.data.framework</groupId>
-            <artifactId>mamahao-data-framework-redis</artifactId>
+            <groupId>org.spring.data.framework</groupId>
+            <artifactId>bc-spring-data-framework-redis</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.mamahao.data.framework</groupId>
-            <artifactId>mamahao-data-framework-mongodb</artifactId>
+            <groupId>org.spring.data.framework</groupId>
+            <artifactId>bc-spring-data-framework-mongodb</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.mamahao.data.framework</groupId>
-            <artifactId>mamahao-data-framework-memcache</artifactId>
+            <groupId>org.spring.data.framework</groupId>
+            <artifactId>bc-spring-data-framework-memcache</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.mamahao.data.framework</groupId>
-            <artifactId>mamahao-data-framework-cache-memcache</artifactId>
+            <groupId>org.spring.data.framework</groupId>
+            <artifactId>bc-spring-data-framework-memcache</artifactId>
         </dependency>
     </dependencies>
 

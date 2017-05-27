@@ -1,7 +1,7 @@
 package com.bc.ebiz.user.persist.mapper;
 
 import com.bc.ebiz.user.persist.entity.User;
-import com.mamahao.data.framework.mybatis.bean.IMapper;
+import org.spring.data.framework.mybatis.bean.IMapper;
 
 /**
  * Created with IntelliJ IDEA.

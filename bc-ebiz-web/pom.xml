@@ -14,7 +14,7 @@
     <url>http://maven.apache.org</url>
 
     <properties>
-        <bc.ebiz.user.service.version>1.0.0</bc.ebiz.user.service.version>
+        <bc.ebiz.user.service.version>1.0.1</bc.ebiz.user.service.version>
     </properties>
 
     <dependencies>

@@ -8,6 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>bc-ebiz-service</artifactId>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>bc-ebiz-service</name>
@@ -15,7 +16,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <bc.ebiz.user.persist.version>1.0.0</bc.ebiz.user.persist.version>
+        <bc.ebiz.user.persist.version>1.0.1</bc.ebiz.user.persist.version>
         <bc.ebiz.cloud.feign.version>1.0-SNAPSHOT</bc.ebiz.cloud.feign.version>
     </properties>
 

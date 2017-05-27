@@ -4,9 +4,8 @@ import com.alibaba.fastjson.JSON;
 import com.bc.ebiz.user.persist.entity.User;
 import com.bc.ebiz.user.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
@@ -27,9 +26,10 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping(value = "/index.htm")
-    public String index(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        User user = userService.findById(1);
+    @RequestMapping(value = "/index/{id}")
+    public String index(HttpServletRequest request, HttpServletResponse response, @PathVariable(name = "id") int id) throws IOException {
+        User user = userService.findById(id);
+
         return JSON.toJSONString(user);
     }
 }

@@ -11,7 +11,7 @@ server:
   context-path: /user
   tomcat:
     uri-encoding: utf-8
-mamahao:
+bc:
   data:
     mybatis:
       base-package: com.bc.ebiz.user.persist
@@ -21,7 +21,8 @@ mamahao:
       check-config-location: false
       not-empty: false
 
-      mappers: com.mamahao.data.framework.mybatis.bean.IMapper
+#      mappers: com.mamahao.data.framework.mybatis.bean.IMapper
+      mappers: org.spring.data.framework.mybatis.bean.IMapper
       config: mybatis-config.xml
 eureka:
   instance:
