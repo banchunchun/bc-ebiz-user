@@ -55,16 +55,9 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>com.mamahao.data.framework</groupId>
-                <artifactId>mamahao-data-framework-dependencies</artifactId>
-                <version>${mamahao-data-framework.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
                 <groupId>org.spring.data.framework</groupId>
                 <artifactId>bc-spring-data-framework-dependencies</artifactId>
-                <version>1.0.4</version>
+                <version>1.0.7</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
