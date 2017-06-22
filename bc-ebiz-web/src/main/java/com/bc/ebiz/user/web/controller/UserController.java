@@ -32,4 +32,11 @@ public class UserController {
 
         return JSON.toJSONString(user);
     }
+
+    @RequestMapping(value = "/V1/user/query")
+    public String indexTest(HttpServletRequest request, HttpServletResponse response,  int id) throws IOException {
+        User user = userService.findById(id);
+
+        return JSON.toJSONString(user);
+    }
 }

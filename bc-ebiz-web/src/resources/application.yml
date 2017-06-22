@@ -8,7 +8,7 @@ spring:
       enabled: true
 server:
   port: 8881
-  context-path: /user
+  context-path: /
   tomcat:
     uri-encoding: utf-8
 bc:
