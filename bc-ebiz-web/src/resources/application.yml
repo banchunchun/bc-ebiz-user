@@ -6,6 +6,17 @@ spring:
       force: true
       charset: UTF-8
       enabled: true
+###zipkin 相关
+  zipkin:
+    base-url: http://localhost:9411
+    service:
+      name: bc-ebiz-user
+  sleuth:
+    #监控开关
+    enabled: true
+    #采样率
+    sampler:
+      percentage: 1
 server:
   port: 8881
   context-path: /
