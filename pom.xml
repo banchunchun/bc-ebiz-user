@@ -149,12 +149,12 @@
     <distributionManagement>
         <repository>
             <id>releases</id>
-            <name>mamahao-release</name>
+            <name>xxxx-release</name>
             <url>http://xxxx:8081/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
-            <name>mamahao-snapshots</name>
+            <name>xxx-snapshots</name>
             <url>http://xxx:8081/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
