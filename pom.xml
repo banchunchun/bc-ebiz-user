@@ -35,8 +35,8 @@
         <alibaba-fastjson.version>1.2.23</alibaba-fastjson.version>
         <tk.mybatis.version>3.3.6</tk.mybatis.version>
         <mybatis-spring-boot-starter.version>1.2.0</mybatis-spring-boot-starter.version>
-        <bc.release.url>http://101.69.254.214:8081/nexus/content/repositories/releases</bc.release.url>
-        <bc.snapshots.url>http://101.69.254.214:8081/nexus/content/repositories/snapshots</bc.snapshots.url>
+        <bc.release.url>http://xxx:8081/nexus/content/repositories/releases</bc.release.url>
+        <bc.snapshots.url>http://xxx:8081/nexus/content/repositories/snapshots</bc.snapshots.url>
     </properties>
     <dependencies>
         <dependency>
